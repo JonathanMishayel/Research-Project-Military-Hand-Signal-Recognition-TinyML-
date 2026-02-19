@@ -1,6 +1,6 @@
 # 🪖 Military Hand Signal Recognition using TinyML
 
-### Project Overview
+## Project Overview
 
 This project presents an efficient embedded vision approach for recognizing a limited set of military hand signals using a lightweight deep learning model optimized for deployment on resource-constrained devices.
 
