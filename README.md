@@ -1,4 +1,4 @@
-# 🪖 Military Hand Signal Recognition using TinyML
+ # 🪖 Military Hand Signal Recognition using TinyML
 
 ## Project Overview
 
@@ -49,10 +49,7 @@ The model is trained using transfer learning with MobileNetV2 and converted to T
       ✓ Batch Normalization
 
 ## Results
-Model	           Accuracy	   Size
+<img width="372" height="136" alt="image" src="https://github.com/user-attachments/assets/4d082703-5865-405f-a03f-074e6e964109" />
 
-Float (Keras)	  ~95%	    25 MB
-
-INT8 (TFLite)	  ~99%	    2.7 MB
 
 Quantization preserved model accuracy while significantly reducing size, enabling embedded deployment.
