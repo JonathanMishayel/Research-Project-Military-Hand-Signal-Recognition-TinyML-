@@ -32,3 +32,19 @@ The model is trained using transfer learning with MobileNetV2 and converted to T
 - Images resized to 224 × 224
 
 - Data augmentation applied during training
+## Model Architecture
+
+- Base Model: MobileNetV2 (Pretrained on ImageNet)
+
+- Transfer Learning
+
+- Fine-Tuning (freezing early layers)
+
+- Regularization:
+
+    ✓ L2 Regularization
+
+    ✓ Dropout
+
+    ✓ Batch Normalization
+
