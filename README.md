@@ -92,3 +92,5 @@ Key steps:
 Jonathan Mishayel
 
 Research Project | Embedded AI & TinyML
+
+@2025
