@@ -49,7 +49,46 @@ The model is trained using transfer learning with MobileNetV2 and converted to T
       ✓ Batch Normalization
 
 ## Results
-    <img width="372" height="136" alt="image" src="https://github.com/user-attachments/assets/4d082703-5865-405f-a03f-074e6e964109" />
+   <img width="372" height="136" alt="image" src="https://github.com/user-attachments/assets/4d082703-5865-405f-a03f-074e6e964109" />
 
 
 Quantization preserved model accuracy while significantly reducing size, enabling embedded deployment.
+----
+## TensorFlow Lite Conversion
+
+The trained model was converted using full INT8 quantization with a representative dataset to ensure proper calibration.
+
+Key steps:
+
+- Optimize.DEFAULT
+
+- Representative dataset
+
+- INT8 input/output
+
+- Accuracy evaluation with quantization scaling
+
+----
+
+## Confusion Matrix
+<img width="558" height="490" alt="confusionmatrix_tflite" src="https://github.com/user-attachments/assets/02804beb-3a80-4b86-914a-afdb803a72e6" />
+
+----
+## Future Work
+
+- Dynamic gesture recognition (temporal modeling)
+
+- Real-time hardware deployment (ESP32 / STM32)
+
+- Model pruning
+
+- Mixed precision inference
+
+- Larger dataset with varied environmental conditions
+
+----
+🧑‍💻 Author
+
+Jonathan Mishayel
+Research Project
+Embedded AI & TinyML
