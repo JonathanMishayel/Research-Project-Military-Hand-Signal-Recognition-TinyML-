@@ -49,8 +49,7 @@ The model is trained using transfer learning with MobileNetV2 and converted to T
       ✓ Batch Normalization
 
 ## Results
-  <img width="642" height="107" alt="image" src="https://github.com/user-attachments/assets/faef3e82-9c45-4e40-94dc-d91a481412f3" />
-
+ <img width="635" height="106" alt="image" src="https://github.com/user-attachments/assets/f8bc56dd-fd3a-40c5-a068-7702025db457" />
 
 Quantization preserved model accuracy while significantly reducing size, enabling embedded deployment.
 
@@ -72,7 +71,8 @@ Key steps:
 ----
 
 ## Confusion Matrix
-<img width="437" height="384" alt="image" src="https://github.com/user-attachments/assets/aa8a5abb-b2e9-43f5-b382-8e8856daaddc" />
+ 
+<img width="528" height="463" alt="image" src="https://github.com/user-attachments/assets/efa04e63-3c60-4376-8fd1-3252603ee053" />
 
 
 ----
